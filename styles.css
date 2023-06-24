@@ -8,7 +8,7 @@ body{
     font-size: 16px;
     color: rgba(0, 0, 0, .87);
     font-family: sans-serif;
-    line-height: 1.8 ;
+    line-height: 1.6 ;
     margin: 0;
 }
 
@@ -55,4 +55,76 @@ body{
 .banniere{
     height: 427px;
     background: no-repeat center center / cover url(images/header_image.jpg);
+}
+
+/* Main */
+
+.main{
+    float: left;
+    background: #FFF;
+    width: calc(100% - 375px);
+    box-shadow: 0 4ox 30px rgba(0, 0, 0, .85);
+    position: relative;
+    z-index: 2;
+}
+
+/* Aside */
+
+.sidebar{
+    float: right;
+    background:#FBFBFB;
+    width: 375px;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.sidebar-title{
+    font-size: 30px;
+    color: #000;
+    margin: 35px 0;
+}
+
+.sidebar-title:first-child{
+    margin-top: 0;
+}
+
+.sidebar a{
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+.sidebar ul{
+    margin: 0;
+    padding: O;
+    list-style: none;
+}
+
+.sidebar li{
+    padding: 6px 0;
+}
+
+.sidebar li:first-child{
+    padding-top: 0;
+}
+
+.sidebar li:last-child{
+    padding-bottom: 0;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+}
+
+.sidebar hr{
+    border: none;
+    background:#C4C4C4;
+    height: 1px;
+    margin: 50px 0;
+}
+
+/* Footer */
+
+.footer {
+    clear: both;
 }
